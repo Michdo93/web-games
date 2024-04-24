@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#word-puzzle-container {
+    text-align: center;
+}
+
+#word-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#guess-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#guess-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#guess-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,68 @@
+h1 {
+    font-size: 2.5em; /* Vergrößert die Überschrift */
+    color: orangered;
+    margin-bottom: -5px;
+}
+
+p {
+    font-size: 1.5em; /* Vergrößert den Text */
+    margin-bottom: -10px;
+}
+
+.ui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Zentriert die Zeilen */
+}
+
+.cell {
+    border: 2px solid gray; /* Fügt einen Rahmen hinzu */
+    width: 120px; /* Vergrößert die Zellen */
+    height: 120px; /* Vergrößert die Zellen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em; /* Vergrößert den Text in den Zellen */
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Weitere Stilregeln hier */
+
+.but {
+    font-size: 1.5em; /* Vergrößert den Text des Reset-Buttons */
+    box-sizing: border-box;
+    width: 190px; /* Vergrößert die Breite des Reset-Buttons */
+    height: 70px; /* Vergrößert die Höhe des Reset-Buttons */
+    border: 2px solid dodgerblue;
+    margin-left: auto;
+    margin-right: auto; /* Zentriert den Button */
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+#print {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em; /* Vergrößert den Text für die Spielerinformation */
+    color: dodgerblue;
+}
+
+/* Hauptcontainer */
+#main {
+    text-align: center;
+    margin-top: 20px; /* Erhöht den oberen Abstand */
+    margin-bottom: 20px; /* Erhöht den unteren Abstand */
+}

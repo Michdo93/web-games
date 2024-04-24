@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-gap: 5px;
+    background-color: #66ccff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #e6e6e6;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* CSS */
+.rot {
+    background-color: red;
+}
+
+.gelb {
+    background-color: yellow;
+}

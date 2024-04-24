@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#hangman-container {
+    text-align: center;
+}
+
+#word-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#hangman {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.keyboard-button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.keyboard-button:hover {
+    background-color: #d0d0d0;
+}
